@@ -2,8 +2,9 @@
 #container {
        
         font-family:'Trebuchet MS', Trebuchet,"Liberation Sans", sans-serif; 
-        background-color: #E3E4E0;    
-    }
+        background-color: #E3E4E0;  }
+
+
 .header{
     display:flex;
     justify-content: space-around;
@@ -11,8 +12,9 @@
     padding:20px;
     margin: 0;
     border-top: 0;
-    color: white;
-}
+    color: white;}
+
+
 .header nav a{
         text-decoration: none;
         padding-top: 10px;
@@ -22,67 +24,61 @@
         color: white} 
 
 ul{
-    margin:0;
-}
-.banner img{
-    height: 400px;
-    width:auto;
+    margin:0;}
 
-}
 
-header nav li {
+/*.banner img{
+    height: 300px;
+    width: auto;
+}*/
+
+.header nav li {
         display: inline-block;
         margin-left: 25px;
         list-style-type: none;
         color:white; 
     }
-    
-h2{
+
+.main {
     display:flex;
-    justify-content: space-around;
-    border-right: 5px solid;
-    border-right-color:#3D5361 ;
-    padding: 10px;
-    width: 200px;
-    height: 250px;
-
-}
-
-.main p{
-    display:flex;;
-    padding-top: 30px;  
-    margin-block-start:10px; 
-    text-align: left;
-}
+    flex-wrap: nowrap;}
  
-.large-card {
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-}
-
-.large-card img {
-    width: 600px;
-    height:300px;
-}
-.card img{
+.main .paragraph{
+    flex:1;
+    border-right: black;
+    border: 5px;
+    display:inline-block;
+    margin-right: 20px;
     display:flex;
-    width: 200px;
-    height: 250px;
+    justify-content: flex-end;
+    align-items: flex-end;}
+
+
+.main .text{
+    flex:3;
+    display:inline-block;
 }
-/*
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    float: right;
-    width: 200px;
-    height: 250px;
-    color:#3D5361;
 
-}*/
 
+.largecard{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:66%;
+    height:66%;
+}
+
+.card {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:33%;
+    height:33%;
+    
+}
 
 .footer {
+    display:flex;
+    color:white;
+    justify-content: space-around;
     background: #7f867b;
     padding: 30px;
     clear: both;
@@ -92,68 +88,8 @@ h2{
 }
 .footer ul a {
     text-align: center;
-    text-decoration: none;
+    list-style-type: none;
+    text-decoration-line: none;
     font-size: 24px;
     color: white
-}
-
-
-/* .wrapper{
-    display: flex;
-    flex-flow:row wrap;
-    text align: center;
-
-}
-.wrapper > * {
- padding: 10px;
- margin:10px;
- flex: 1 100%;
- border-radius:10px;
-}
-
-.header{
-    background: tomato;
-    height: 120px;
-
-}
-.footer{
-    background:lightpink;
-    height: 80px;
-}
-.main {
-    text-align: left;
-    background: deepskyblue;
-    height:300px;
-    font-size: 24px;
-
-}
-.aside1{
-background: dimgrey;
-
-}
-.aside2{
-  background: hotpink;  
-}
-@media all and (min-width: 800px){
-.main {
-    flex: 3;
-    }
-.aside1{
-    order: 1;
-}
-.aside2 {
-    order: 2 ;
-}
-.main{
-   order: 2; 
-}
- .footer{
-    order:4;  
- } 
-}
-
-@media all and (min- width: 600px;){
-    .aside {
-      flex: 1;  
-    }
 }

@@ -34,7 +34,6 @@ The images are placeholders for the projects since this is one of the first home
 
 The following images are screenshots of the website. 
  
-![digital portfolio](.assets/images/screenshot.jpg)
+![digital portfolio]
 
-![digital portfolio](.assets/images/screenshot2.jpg)
-
+![digital portfolio]

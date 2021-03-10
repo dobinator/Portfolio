@@ -1,27 +1,37 @@
 
-#container {
+#container{
        
         font-family:'Trebuchet MS', Trebuchet,"Liberation Sans", sans-serif; 
-        background-color: #E3E4E0;  }
+        background-color: #E3E4E0;  
+    
+}
 
 
-.header{
-    display:flex;
+.header  {
+
+    flex-direction: row; 
     justify-content: space-around;
     background: #7f867b;
     padding:20px;
     margin: 0;
     border-top: 0;
-    color: white;}
+    color: white;
+    
 
 
-.header nav a{
+}
+
+
+.header nav a {
         text-decoration: none;
         padding-top: 10px;
         margin-right: 20px;
         padding:40px;
         font-size: 24px;
-        color: white} 
+        color: white;
+        text-align:center; 
+    
+} 
 
 ul{
     margin:0;}
@@ -40,12 +50,10 @@ ul{
     }
 
 .main {
-    display:flex;
     flex-wrap: nowrap;}
  
 .main .paragraph {
-    flex:1;
-    border-right: black;
+    display: flex;
     border: 5px;
     display:inline-block;
     margin-right: 20px;
@@ -56,12 +64,12 @@ ul{
 
 
 .main .text{
-    flex:3;
-    display:inline-block;}
+    display:inline-block;
+
+}
 
  .work img {
     flex-wrap: wrap;
-    flex-direction:column;
     justify-content: space-evenly;
     width:33%;
     height:33% 
@@ -85,7 +93,7 @@ ul{
     font-size: 24px;
     color: white
 }
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     #container {
         flex: 1;  
       }  }
@@ -102,4 +110,4 @@ ul{
     flex: 3;  
   }
 
-}
+} */

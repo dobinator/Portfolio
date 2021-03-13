@@ -4,8 +4,6 @@ body{
 }
 
 #container{
-       
-        font-family:'Trebuchet MS', Trebuchet,"Liberation Sans", sans-serif; 
         background-color: #E3E4E0;  
     
 }
@@ -20,12 +18,16 @@ body{
     margin: 0;
     border-top: 0;
     color: white;
-    
-
+    font-size: medium;
 
 }
 
+.header h1{
+    
+font-size: 25px;
 
+
+}
 .header nav a {
         text-decoration: none;
         padding-top: 10px;
@@ -37,9 +39,11 @@ body{
     
 } 
 
+
 ul{
     margin:0;
 }
+
 
 .card {
       border-right: rgb(247, 248, 245) 7px solid;
@@ -48,20 +52,52 @@ ul{
       text-align: right;
       float: left;
       padding-right: 15px;
-      }
+}
 
 .content {
     width: 90%;
     /* padding: 7%; */
-    border:red 2px solid; 
+    border: #7f867b 2px solid; 
     margin: 30px; 
 }
 
+
+.text {
+ color: #7f867b;
+ font-size: 20px;
+ /* position:left;
+ top: 10%;
+ left:10%;
+ transform:translate(-50%, 50%); 
+ text-shadow: 0 0 10px white; */
+
+
+ #smallerBoxes{
+
+
+ }
+}
+.project a {
+    display: flex;
+    height: 125px;
+    width: 150px;
+}
+.project a img{
+    height: 100px;
+    width: 150x; 
+}
+
+.project b {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.project b img {
+    height: 33%;
+    width: 33%;
+}
       
-/*.banner img{
-    height: 300px;
-    width: auto;
-}*/
 
 .header nav li {
         display: inline-block;
@@ -70,23 +106,6 @@ ul{
         color:white; 
  }; 
 
-
- 
-/* .main {
-    display: flex;
-    border: 5px;
-    display:inline-block;
-    margin-right: 20px;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}; */
-
-
-/* .main .text{
-    display:inline-block;
-
-};  */
 
 
 section {

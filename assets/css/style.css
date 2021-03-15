@@ -1,14 +1,13 @@
+*{
+box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: #e3e4e0;
 }
 
-#container {
-  background-color: #e3e4e0;
-  box-sizing: border-box;
-}
-
-.header {
+header {
   border: green 2px solid;
   display: flex;
   flex-direction: row;
@@ -16,25 +15,9 @@ body {
   background: #7f867b;
   margin: 0 0 10% 0;
   border-top: 0;
-  height: 430px;
-  width: 100px;
+  height: 400px;
+  width: 100%;
   color: white;
-}
-
-header h1 {
-  border: green 2px solid;
-  font-size: 2.5rem;
-  margin-top: 10%;
-  margin-left: -7%;
-  max-width: 35%;
-  align-self: flex-end;
-}
-header img {
-  border: green 2px solid;
-  height: 90%;
-  margin: 7%;
-  border-radius: 5%;
-  position: relative;
 }
 
 nav a {
@@ -45,17 +28,32 @@ nav a {
 }
 
 nav ul {
-  display: flex;
-  justify-content: flex-end;
+display: flex;
+justify-content: flex-end;
 }
 
 nav li {
-  border: rgb(128, 0, 17) 2px solid;
-  margin-right: 5%;
-  list-style-type: none;
-  color: white;
-}
+    border: rgb(128, 0, 17) 2px solid;
+    margin-right: 5%;
+    list-style-type: none;
+    color: white;
+  }
 
+header h1 {
+    border: green 2px solid;
+    font-size: 2.5rem;
+    margin-top: 7%;
+    max-width: 35%;
+    /* align-self: flex-end; */
+  }
+
+  header img {
+    border: green 2px solid;
+    height: 150px; 
+    width: 120px;
+    border-radius: 5%;
+    position: relative;
+  }
 section {
   border: rgb(37, 111, 172) 2px solid;
   width: 95%;
@@ -78,7 +76,7 @@ section {
 
 .content img {
   border: rgb(128, 0, 17) 2px solid;
-  width: 30%;
+  width: 50%;
   padding: 25px;
 }
 
@@ -95,12 +93,8 @@ section {
 .text {
   color: #7f867b;
   font-size: 20px;
-  /* position:left;
- top: 10%;
- left:10%;
- transform:translate(-50%, 50%); 
- text-shadow: 0 0 10px white; */
 }
+
 .card {
   border-right: rgb(247, 248, 245) 7px solid;
   min-width: 250px;
@@ -113,26 +107,6 @@ section {
   margin-right: 2.5%;
 }
 
-.project a {
-  display: flex;
-  height: 125px;
-  width: 150px;
-}
-.project a img {
-  height: 100px;
-  width: 150x;
-}
-
-.project b {
-  display: flex;
-  height: 50px;
-  width: 50px;
-}
-
-.project b img {
-  height: 33%;
-  width: 33%;
-}
 
 section {
   /* border: rgb(37, 111, 172) 2px solid; */

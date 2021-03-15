@@ -26,14 +26,12 @@ https://github.com/dobinator/Portfolio
 https://dobinator.github.io/Portfolio/
 
 Notes : 
- The files that are contained in this project include: index.html, # style.css, an images folder with images. There is also a folder contained within the images file, for thumbnails of the screenshots of the website.
+ The files that are contained in this project include: index.html, # style.css, an images folder with images. 
 
 
-The images are placeholders for the projects since this is one of the first homework assignments. There is also an extra image (professional photos) that will be added later to the website.
-
+There are two images as placeholders since not all projects have been completed. 
 
 The following images are screenshots of the website. 
  
-![digital portfolio]
 
-![digital portfolio]
+![Portfolio](./assets/images/screenshot-of-website.png)

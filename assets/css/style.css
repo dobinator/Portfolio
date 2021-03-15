@@ -1,5 +1,5 @@
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -28,32 +28,32 @@ nav a {
 }
 
 nav ul {
-display: flex;
-justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav li {
-    border: rgb(128, 0, 17) 2px solid;
-    margin-right: 5%;
-    list-style-type: none;
-    color: white;
-  }
+  border: rgb(128, 0, 17) 2px solid;
+  margin-right: 5%;
+  list-style-type: none;
+  color: white;
+}
 
 header h1 {
-    border: green 2px solid;
-    font-size: 2.5rem;
-    margin-top: 7%;
-    max-width: 35%;
-    /* align-self: flex-end; */
-  }
+  border: green 2px solid;
+  font-size: 2.8rem;
+  margin-top: 7%;
+  max-width: 35%;
+}
 
-  header img {
-    border: green 2px solid;
-    height: 150px; 
-    width: 120px;
-    border-radius: 5%;
-    position: relative;
-  }
+header img {
+  border: green 2px solid;
+  height: 150px;
+  width: 120px;
+  border-radius: 5%;
+  position: relative;
+}
+
 section {
   border: rgb(37, 111, 172) 2px solid;
   width: 95%;
@@ -75,9 +75,10 @@ section {
 }
 
 .content img {
-  border: rgb(128, 0, 17) 2px solid;
+  border: rgb(128, 0, 17) 1px solid;
   width: 50%;
   padding: 25px;
+  position: relative;
 }
 
 .content {
@@ -91,8 +92,12 @@ section {
 }
 
 .text {
-  color: #7f867b;
-  font-size: 20px;
+  justify-content: flex-end;
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  width: 25%;
+  background-color: #7f867b;
 }
 
 .card {
@@ -107,9 +112,7 @@ section {
   margin-right: 2.5%;
 }
 
-
 section {
-  /* border: rgb(37, 111, 172) 2px solid; */
   width: 95%;
   height: auto;
   margin: auto;
@@ -134,21 +137,24 @@ footer {
   font-size: 24px;
   color: white;
 }
-/* @media screen and (max-width: 992px) {
-    #container {
-        flex: 1;  
-      }  }
+
+@media screen and (max-width: 992px) {
+  #container {
+    flex: 1;
+  }
+}
 
 @media screen and (max-width: 768px) {
-    #container {
-    flex: 2;  
+  #container {
+    flex: 2;
   }
-
 }
 
 @media screen and (max-width: 576px) {
-    #container {
-    flex: 3;  
+  #container {
+    flex: 3;
   }
-
-} */
+  nav ul {
+    display: block;
+  }
+}

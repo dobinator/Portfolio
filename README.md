@@ -34,4 +34,4 @@ There are two images as placeholders since not all projects have been completed.
 The following images are screenshots of the website. 
  
 
-![Portfolio](./assets/images/screenshot-of-website.png)
+![Portfolio](./assets/images/screenshot of website.png)

@@ -157,4 +157,9 @@ footer {
   nav ul {
     display: block;
   }
+  header h1 {
+    font-size: 2rem;
+ }
+
+ 
 }
